@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anton Zemlyansky blog</title><link href="http://zemlyansky.com/blog/" rel="alternate"></link><link href="http://zemlyansky.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://zemlyansky.com/blog/</id><updated>2016-06-08T20:00:00+03:00</updated><entry><title>Перва запись</title><link href="http://zemlyansky.com/blog/first-post.html" rel="alternate"></link><published>2016-06-08T20:00:00+03:00</published><updated>2016-06-08T20:00:00+03:00</updated><author><name>Антон Землянский</name></author><id>tag:zemlyansky.com,2016-06-08:/blog/first-post.html</id><summary type="html">&lt;p&gt;Первая пробная запись&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anton Zemlyansky blog</title><link href="http://zemlyansky.com/blog/" rel="alternate"></link><link href="http://zemlyansky.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://zemlyansky.com/blog/</id><updated>2018-09-15T20:00:00+03:00</updated><entry><title>Блог на Pelican и Jupyter Notebook</title><link href="http://zemlyansky.com/blog/pelican-blog.html" rel="alternate"></link><published>2018-09-15T20:00:00+03:00</published><updated>2018-09-15T20:00:00+03:00</updated><author><name>Антон Землянский</name></author><id>tag:zemlyansky.com,2018-09-15:/blog/pelican-blog.html</id><summary type="html">&lt;p&gt;Попытка создать блог на основе Jupyter Notebook и генераторе статических сайтов Pelican&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1147,6 +1147,14 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Markdown:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;Пробная запись в Jupyter Notebook&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Код и график:&lt;/p&gt;
 
@@ -1205,7 +1213,7 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Mathjax:&lt;/p&gt;
+&lt;p&gt;Формулы:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
