@@ -8,6 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'docs'
+STATIC_PATHS = ['img']
 
 TIMEZONE = 'Europe/Kiev'
 
