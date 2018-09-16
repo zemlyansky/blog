@@ -47,7 +47,7 @@ AUTHOR_INTRO = u'Блог Антона Землянского'
 AUTHOR_DESCRIPTION = u'Hello world! I’m John Doe. I like coffee, birds and Python.'
 AUTHOR_AVATAR = 'http://www.gravatar.com/avatar/abcdefghijkl?s=240'
 
-IGNORE_FILES = ['*-checkpoint.ipynb']
+IGNORE_FILES = ['*-checkpoint.ipynb', '*.md']
 # IPYNB_USE_METACELL = True
 
 # Uncomment following line if you want document-relative URLs when developing
