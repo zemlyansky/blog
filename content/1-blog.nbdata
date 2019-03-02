@@ -1,7 +1,8 @@
 Title: Блог на Pelican и Jupyter Notebook
 Slug: pelican-blog
+Lang: ru
 Date: 2018-09-15 20:00
-Category: Заметки
-Tags: Python
+Category: Интернет
+Tags: Python, Pelican, Jupyter Notebook
 Author: Антон Землянский
 Summary: Попытка создать блог на основе Jupyter Notebook и генераторе статических сайтов Pelican

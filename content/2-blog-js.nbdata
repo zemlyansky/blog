@@ -1,7 +1,8 @@
 Title: Блог на Pelican и Jupyter Notebook (js)
 Slug: pelican-blog-js
+Lang: ru
 Date: 2018-09-16 20:00
-Category: Заметки
-Tags: Javascript
+Category: Интернет
+Tags: Javascript, Pelican, Jupyter Notebook
 Author: Антон Землянский
 Summary: Подгрузка Javascript kernel

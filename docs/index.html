@@ -102,11 +102,6 @@
             }(document, "script", "twitter-wjs"));
         </script>
 
-        <h2>Categories</h2>
-        <ul class="navbar">
-                <li><a
-                        href="https://zemlyansky.com/blog/category/zametki/">Заметки</a></li>
-        </ul>
 
         <h2 class="blog_roll_link"><br/>LINKS</h2>
         <ul class="navbar">
@@ -118,20 +113,6 @@
 
 <!-- Content -->
 <article>
-        <ol class="posts">
-                <li class="post_list"><p class="post_entry">
-                    <h2 class="post_title"><a href="https://zemlyansky.com/blog/pelican-blog-js/" rel="bookmark"
-                                              title="Permalink to Блог на Pelican и Jupyter Notebook (js)">Блог на Pelican и Jupyter Notebook (js)</a>
-                    </h2>
-                        <p><p>Подгрузка Javascript kernel</p></p>
-                </li>
-                <li class="post_list"><p class="post_entry">
-                    <h2 class="post_title"><a href="https://zemlyansky.com/blog/pelican-blog/" rel="bookmark"
-                                              title="Permalink to Блог на Pelican и Jupyter Notebook">Блог на Pelican и Jupyter Notebook</a>
-                    </h2>
-                        <p><p>Попытка создать блог на основе Jupyter Notebook и генераторе статических сайтов Pelican</p></p>
-                </li>
-        </ol>
 
 
 </article>
@@ -143,7 +124,7 @@
 <script>
   Array
     .from(document.querySelectorAll('div.input'))
-    .filter(node => /(\/\/\/|\#\#\#)/i.test(node.innerHTML))
+    .filter(node => /(\/\/\/|\#\#\#|iframer)/i.test(node.innerHTML))
     .forEach(node => node.style.display = 'none')
 </script>
 </body>

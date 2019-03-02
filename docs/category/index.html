@@ -102,11 +102,6 @@
             }(document, "script", "twitter-wjs"));
         </script>
 
-        <h2>Categories</h2>
-        <ul class="navbar">
-                <li><a
-                        href="https://zemlyansky.com/blog/category/zametki/">Заметки</a></li>
-        </ul>
 
         <h2 class="blog_roll_link"><br/>LINKS</h2>
         <ul class="navbar">
@@ -120,7 +115,6 @@
 <article>
     <h2>Categories</h2>
     <ul class="category_folder">
-            <li><a href="category/zametki/">Заметки</a></li>
     </ul>
 </article>
 
@@ -131,7 +125,7 @@
 <script>
   Array
     .from(document.querySelectorAll('div.input'))
-    .filter(node => /(\/\/\/|\#\#\#)/i.test(node.innerHTML))
+    .filter(node => /(\/\/\/|\#\#\#|iframer)/i.test(node.innerHTML))
     .forEach(node => node.style.display = 'none')
 </script>
 </body>

@@ -3,7 +3,7 @@
 <head>
                 <meta charset="utf-8">
         <!-- Site Meta Data -->
-        <title>Блокнот - Заметки</title>
+        <title>Блокнот - Pelican</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Anton Zemlyansky">
@@ -49,13 +49,13 @@
     <meta property="og:image" content=""/>
 
     <meta name="twitter:creator" content="zemlyansky">
-    <meta name="twitter:url" content="https://zemlyansky.com/blog/ru/category/zametki/">
-    <meta name="twitter:title" content="Блокнот ~ Заметки">
-    <meta name="twitter:description" content="Articles de Заметки">
+    <meta name="twitter:url" content="https://zemlyansky.com/blog/ru/tag/pelican/">
+    <meta name="twitter:title" content="Блокнот ~ Pelican">
+    <meta name="twitter:description" content="Articles de Pelican">
 
     <!-- Facebook Meta Data -->
-    <meta property="og:title" content="Блокнот ~ Заметки"/>
-    <meta property="og:description" content="Articles de Заметки"/>
+    <meta property="og:title" content="Блокнот ~ Pelican"/>
+    <meta property="og:description" content="Articles de Pelican"/>
     <meta property="og:image" content=""/>
 </head>
 
@@ -114,8 +114,8 @@
 
         <h2>Categories</h2>
         <ul class="navbar">
-                <li class="active"><a
-                        href="https://zemlyansky.com/blog/ru/category/zametki/">Заметки</a></li>
+                <li><a
+                        href="https://zemlyansky.com/blog/ru/category/internet/">Интернет</a></li>
         </ul>
 
         <h2 class="blog_roll_link"><br/>LINKS</h2>
@@ -153,7 +153,7 @@
 <script>
   Array
     .from(document.querySelectorAll('div.input'))
-    .filter(node => /(\/\/\/|\#\#\#)/i.test(node.innerHTML))
+    .filter(node => /(\/\/\/|\#\#\#|iframer)/i.test(node.innerHTML))
     .forEach(node => node.style.display = 'none')
 </script>
 </body>

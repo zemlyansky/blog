@@ -102,11 +102,6 @@
             }(document, "script", "twitter-wjs"));
         </script>
 
-        <h2>Categories</h2>
-        <ul class="navbar">
-                <li><a
-                        href="https://zemlyansky.com/blog/category/zametki/">Заметки</a></li>
-        </ul>
 
         <h2 class="blog_roll_link"><br/>LINKS</h2>
         <ul class="navbar">
@@ -121,10 +116,6 @@
     <h1>Archives</h1>
 
     <dl>
-            <dt>Sun 16 September 2018</dt>
-            <dd><a href="https://zemlyansky.com/blog/pelican-blog-js/">Блог на Pelican и Jupyter Notebook (js)</a></dd>
-            <dt>Sat 15 September 2018</dt>
-            <dd><a href="https://zemlyansky.com/blog/pelican-blog/">Блог на Pelican и Jupyter Notebook</a></dd>
     </dl>
 </article>
 
@@ -135,7 +126,7 @@
 <script>
   Array
     .from(document.querySelectorAll('div.input'))
-    .filter(node => /(\/\/\/|\#\#\#)/i.test(node.innerHTML))
+    .filter(node => /(\/\/\/|\#\#\#|iframer)/i.test(node.innerHTML))
     .forEach(node => node.style.display = 'none')
 </script>
 </body>
