@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "online-stats": "^1.0.3"
+    "online-stats": "^1.0.3",
+    "ranjs": "^1.7.4"
   }
 }

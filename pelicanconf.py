@@ -3,16 +3,18 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Anton Zemlyansky'
-SITENAME = u'Anton Zemlyansky blog'
+SITENAME = u'Notebook'
+
 SITEURL = ''
+BASEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'docs'
-STATIC_PATHS = ['img']
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Kiev'
-
-DEFAULT_LANG = u'ru'
+LOCALE = 'en_US.UTF-8'
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,34 +23,57 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+  ('StatSim', 'https://statsim.com/'),
+  ('Analyze.li', 'https://analyze.li')
+)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+  ('Twitter', 'https://twitter.com/zemlyansky'),
+  ('Facebook', 'https://www.facebook.com/zemlyansky'),
+  ('Github', 'https://github.com/zemlyansky')
+)
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['i18n_subsites', 'ipynb.markup']
+
+I18N_SUBSITES = {
+  'ru': {
+    'SITENAME': 'Блокнот'
+  }
+}
+
+IGNORE_FILES = ['*-checkpoint.ipynb', '*.md', '*.html']
 
 DEFAULT_PAGINATION = 10
 
-MARKUP = ('md', 'ipynb')
+THEME = 'theme'
+DISPLAY_FOOTER = False
+DISPLAY_SUMMARY = True
+ARTICLE_ORDER_BY = 'reversed-date'
+DEFAULT_PAGINATION = False
 
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
-THEME = 'themes/minimalxy'
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+CATEGORIES_SAVE_AS = 'category/index.html'
 
-MINIMALXY_START_YEAR = 2018
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+AUTHORS_SAVE_AS = 'author/index.html'
 
-# Author
-AUTHOR_INTRO = u'Блог Антона Землянского'
-AUTHOR_DESCRIPTION = u'Hello world! I’m John Doe. I like coffee, birds and Python.'
-AUTHOR_AVATAR = 'http://www.gravatar.com/avatar/abcdefghijkl?s=240'
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+TAGS_SAVE_AS = 'tag/index.html'
 
-IGNORE_FILES = ['*-checkpoint.ipynb', '*.md']
-# IPYNB_USE_METACELL = True
+DELETE_OUTPUT_DIRECTORY = True
+
+GOOGLE_ANALYTICS = 'UA-7770107-1'
+TWITTER_USERNAME = 'zemlyansky'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
