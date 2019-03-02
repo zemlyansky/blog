@@ -72,7 +72,6 @@ TAGS_SAVE_AS = 'tag/index.html'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-GOOGLE_ANALYTICS = 'UA-7770107-1'
 TWITTER_USERNAME = 'zemlyansky'
 
 # Uncomment following line if you want document-relative URLs when developing
